@@ -3,23 +3,23 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    slug: "ai-analytics-dashboard",
-    title: "AI Аналитика",
-    shortDescription: "Платформа бизнес-аналитики в реальном времени на базе машинного обучения",
+    slug: "case-1",
+    title: "«Наконец-то я себя понимаю»",
+    shortDescription: "Анна, мама двоих детей, нашла своё предназначение и запустила любимое дело после работы с цифровой психологией",
     mainImage: "/portfolio-images/saas-dashboard-1.jpg",
   },
   {
     id: 2,
-    slug: "smart-automation-suite",
-    title: "Умная автоматизация",
-    shortDescription: "Комплексная автоматизация рабочих процессов с AI-принятием решений",
+    slug: "case-2",
+    title: "«Декрет — не тупик, а старт»",
+    shortDescription: "Марина восстановила внутренний ресурс в декрете и вернулась к себе — сильной, вдохновлённой и счастливой",
     mainImage: "/portfolio-images/ecommerce-interface-1.jpg",
   },
   {
     id: 3,
-    slug: "neural-commerce-platform",
-    title: "Neural Commerce",
-    shortDescription: "E-commerce платформа нового поколения с персонализированными AI-рекомендациями",
+    slug: "case-3",
+    title: "«Я развернула жизнь на 180°»",
+    shortDescription: "Ольга ушла с нелюбимой работы и построила карьеру, которая наполняет смыслом каждый день",
     mainImage: "/portfolio-images/ai-platform-1.jpg",
   },
 ]
@@ -28,12 +28,11 @@ export default function Projects() {
   return (
     <section id="projects" className="my-20">
       <h2 className="text-black dark:text-white mb-6 text-3xl md:text-4xl lg:text-5xl font-medium leading-tight">
-        Наши последние
-        <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">проекты</span>
+        Истории
+        <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">моих клиентов</span>
       </h2>
       <p className="mb-12 max-w-2xl text-gray-700 dark:text-gray-300">
-        От AI-автоматизации до кастомных маркетплейсов — наши решения помогают бизнесу масштабироваться эффективнее.
-        Изучите платформы, инструменты и решения, которые мы создали для наших клиентов.
+        Реальные истории людей, которые нашли свой путь, обрели гармонию с собой и начали жить так, как всегда хотели.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -63,7 +62,7 @@ export default function Projects() {
 
       <div className="flex justify-center mt-8">
         <a href="#contact" className="btn-primary">
-          Все проекты
+          Записаться на консультацию
         </a>
       </div>
     </section>
